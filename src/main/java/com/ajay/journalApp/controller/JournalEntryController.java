@@ -1,7 +1,6 @@
 package com.ajay.journalApp.controller;
 
 import com.ajay.journalApp.entity.JournalEntry;
-import com.ajay.journalApp.entity.User;
 import com.ajay.journalApp.service.JournalEntryService;
 import com.ajay.journalApp.service.UserService;
 import org.bson.types.ObjectId;

@@ -17,7 +17,6 @@ import java.util.List;
 @Data
 @Document(collection = "users")
 @FieldDefaults(level = AccessLevel.PRIVATE)
-//@NoArgsConstructor
 public class User {
 
     @Id
@@ -33,4 +32,5 @@ public class User {
     @DBRef   //  ye reference rakhega journalEntries ka
     List<JournalEntry> journalEntries = new ArrayList<>();
 
+    List<String> roles;
 }
